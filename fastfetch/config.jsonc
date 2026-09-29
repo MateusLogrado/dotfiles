@@ -1,0 +1,70 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/konata/.config/fastfetch/oda.png",
+    "width": 22,
+    "height": 20
+  },
+  "display": {
+    "separator": " ❯ ",
+    "color": {
+      "title": "red",
+      "keys": "red"
+    },
+    "key": {
+      "width": 14
+    }
+  },
+  "modules": [
+    "title",
+    {
+      "type": "custom",
+      "format": "-----System-----"
+    },
+    {
+      "type": "os",
+      "key": " OS"
+    },
+    {
+      "type": "kernel",
+      "key": " kernel"
+    },
+    {
+      "type": "packages",
+      "key": "󰏓 packages"
+    },
+    {
+      "type": "custom",
+      "format": "-----Desktop-----"
+    },
+    {
+      "type": "wm",
+      "key": "󰍹 WN"
+    },
+    {
+      "type": "terminal",
+      "key": " terminal"
+    },
+    {
+      "type": "shell",
+      "key": " shell"
+    },
+    {
+      "type": "custom",
+      "format": "-----Hardware-----"
+    },
+    {
+      "type": "cpu",
+      "key": " CPU"
+    },
+    {
+      "type": "memory",
+      "key": "󰍛 memory"
+    },
+    {
+      "type": "disk",
+      "key": " disk"
+    }
+  ]
+}

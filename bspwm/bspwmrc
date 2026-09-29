@@ -1,0 +1,41 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+~/.config/polybar/launch.sh &
+
+xrdb -merge ~/.Xresources
+xsetroot -cursor_name left_ptr
+
+pkill xfce4-notifyd & 
+dunst &
+
+picom -b --backend glx &
+
+nitrogen --restore &
+
+pipewire &
+wireplumber &
+pipewire-pulse &
+
+/usr/libexec/xdg-desktop-portal &
+/usr/libexec/xdg-desktop-portal-gtk &
+
+setxkbmap br &
+
+xrandr --output HDMI-A-0 --mode 1920x1080 --left-of eDP --output eDP --mode 1920x1080 &
+
+bspc monitor eDP -d VI VII VIII IX X
+bspc monitor HDMI-A-0 -d I II III IV V
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config normal_border_color '#EEAAAA'
+bspc config active_border_color '#db5353'
+bspc config focused_border_color '#db5353'
+bspc config presel_feedback_color '#db5353'

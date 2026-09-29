@@ -1,0 +1,55 @@
+* {
+    bg:        #000000F0;
+    bg-alt:    #000000C0;
+    fg:        #ffffff;
+    accent:    #88c0d0;
+    urgent:    #bf616a;
+    background-color: transparent;
+    text-color: @fg;
+}
+window {
+    background-color: @bg;
+    border: 1px;
+    border-color: #333333;
+    border-radius: 0px;
+    width: 500px;
+}
+mainbox {
+    background-color: transparent;
+    padding: 10px;
+}
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 0px;
+    padding: 8px;
+    children: [ "entry" ];
+}
+entry {
+    background-color: transparent;
+    text-color: @fg;
+    placeholder: "Buscar...";
+    placeholder-color: #ffffff80;
+}
+listview {
+    background-color: transparent;
+    lines: 8;
+    spacing: 4px;
+}
+element {
+    background-color: transparent;
+    text-color: @fg;
+    padding: 6px;
+    border-radius: 0px;
+}
+element selected {
+    background-color: @accent;
+    text-color: #000000;
+}
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+element-icon {
+    background-color: transparent;
+    size: 18px;
+}
