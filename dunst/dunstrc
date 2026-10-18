@@ -1,10 +1,10 @@
 [global]
     # Fontes e espaçamento
-    font = Monospace 10
+    font = Terminus 10
     padding = 8
     horizontal_padding = 8
     frame_width = 2
-    frame_color = "#db5353"
+    frame_color = "#EBDBB2"
 
     # Layout
     width = 300
@@ -14,17 +14,17 @@
     corner_radius = 0
 
 [urgency_low]
-    background = "#000000"
-    foreground = "#ffffff"
+    background = "#1d2021"
+    foreground = "#ebdbb2"
     timeout = 5
 
 [urgency_normal]
-    background = "#000000"
-    foreground = "#ffffff"
+    background = "#1d2021"
+    foreground = "#ebdbb2"
     timeout = 7
 
 [urgency_critical]
-    background = "#000000"
-    foreground = "#ffffff"
+    background = "#1d2021"
+    foreground = "#ebdbb2"
     frame_color = "#db5353"
     timeout = 0

@@ -1,8 +1,7 @@
 configuration {
-    modi: "drun,run,window";
+    modi: "drun";
     show-icons: true;
-    icon-theme: "Papirus";
-    font: "JetBrainsMono Nerd Font 11";
+    font: "Terminus (TTF) 14";
 }
 
 @theme "~/.config/rofi/theme.rasi"

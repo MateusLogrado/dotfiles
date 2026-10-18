@@ -1,55 +1,99 @@
 * {
-    bg:        #000000F0;
-    bg-alt:    #000000C0;
-    fg:        #ffffff;
-    accent:    #88c0d0;
-    urgent:    #bf616a;
-    background-color: transparent;
-    text-color: @fg;
+  background: #1D2021;
+  foreground: #EBDBB2;
+  alt: #A3A094;
+  cur: #f38ba8;
+
+  background-color: @background;
+  foreground-color: @foreground;
 }
-window {
-    background-color: @bg;
-    border: 1px;
-    border-color: #333333;
-    border-radius: 0px;
-    width: 500px;
-}
-mainbox {
-    background-color: transparent;
-    padding: 10px;
-}
-inputbar {
-    background-color: @bg-alt;
-    border-radius: 0px;
-    padding: 8px;
-    children: [ "entry" ];
-}
-entry {
-    background-color: transparent;
-    text-color: @fg;
-    placeholder: "Buscar...";
-    placeholder-color: #ffffff80;
-}
-listview {
-    background-color: transparent;
-    lines: 8;
-    spacing: 4px;
-}
+
 element {
-    background-color: transparent;
-    text-color: @fg;
-    padding: 6px;
-    border-radius: 0px;
+  orientation: horizontal;
+  spacing: 8px;
+  padding: 6px 10px;
 }
-element selected {
-    background-color: @accent;
-    text-color: #000000;
-}
-element-text {
-    background-color: transparent;
-    text-color: inherit;
-}
+
+
 element-icon {
-    background-color: transparent;
-    size: 18px;
+  size: 0.9em;
+}
+
+entry {
+  cursor-color: @cur;
+  cursor-width: 8px;
+  hide-cursor-on-empty: true;
+  placeholder: "Type here";
+  cursor: pointer;
+  text-color: @foreground;
+  background-color: @background;
+}
+
+window {
+  border-color: @alt;
+  border:           2px;
+  padding:          5;
+  height: 50%;
+  width: 25%;
+}
+
+mainbox {
+    border:  0px;
+    padding: 0;
+    margin: 10;
+    background-color: @background;
+}
+
+
+textbox {
+    text-color: @foreground;
+}
+
+listview {
+    fixed-height: 0;
+    border:       0px 1px 1px 1px ;
+    border-color: @alt;
+    spacing:      3px ;
+    scrollbar:    false;
+    padding:      0px;
+}
+
+element.normal.normal {
+    background-color: @background;
+    text-color:       @foreground;
+}
+
+element.alternate.normal {
+    background-color: @background;
+    text-color:       @foreground;
+}
+
+element.selected.normal {
+    background-color: @cur;
+    text-color:       @background;
+}
+
+
+element-icon, element-text {
+  background-color: transparent;
+  text-color: inherit;
+}
+
+prompt {
+  text-color: @foreground;
+  margin: 0 8px 0 0;
+}
+
+inputbar {
+  children:   [ prompt, entry ];
+  background-color: @background;
+  text-color:       @foreground;
+  enabled: true;
+  border: 1px solid 1px solid 2px dash 1px solid;
+  border-color: @alt;
+}
+
+textbox-prompt-colon {
+  text-color: @foreground;
+  str: ":";
 }

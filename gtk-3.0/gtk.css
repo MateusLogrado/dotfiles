@@ -1,0 +1,82 @@
+/* Paleta */
+@define-color bg  #1D2021;
+@define-color fg  #EBDBB2;
+@define-color alt #A3A094;
+
+/* Base */
+window,
+.background,
+dialog {
+  background-color: @bg;
+  color: @fg;
+}
+
+/* Área de arquivos e painel lateral */
+.view,
+iconview,
+treeview.view,
+.sidebar,
+.sidebar row,
+placessidebar {
+  background-color: @bg;
+  color: @fg;
+}
+
+/* Seleção */
+.view:selected,
+iconview:selected,
+treeview.view:selected,
+row:selected {
+  background-color: @alt;
+  color: @fg;
+}
+
+/* Barras: menu, ferramentas, caminho e status */
+menubar,
+toolbar,
+.toolbar,
+headerbar,
+statusbar,
+.path-bar {
+  background-color: @bg;
+  background-image: none;
+  color: @fg;
+  border-color: @alt;
+}
+
+/* Botões e campos */
+button,
+entry {
+  background-color: @bg;
+  background-image: none;
+  color: @fg;
+  border: 1px solid @alt;
+  box-shadow: none;
+}
+
+button:hover,
+button:checked {
+  background-color: @alt;
+}
+
+/* Menus */
+menu,
+.popup,
+popover {
+  background-color: @bg;
+  color: @fg;
+  border: 1px solid @alt;
+}
+
+menuitem:hover {
+  background-color: @alt;
+}
+
+/* Divisórias e scrollbar */
+separator {
+  background-color: @alt;
+}
+
+scrollbar slider {
+  background-color: @alt;
+}
