@@ -116,7 +116,10 @@ vim.pack.add({
   'https://github.com/windwp/nvim-autopairs',
   'https://github.com/nvim-treesitter/nvim-treesitter',
   "https://github.com/windwp/nvim-autopairs",
-  "https://github.com/ellisonleao/gruvbox.nvim"
+  "https://github.com/ellisonleao/gruvbox.nvim",
+  "https://github.com/windwp/nvim-ts-autotag",
+  'https://github.com/folke/which-key.nvim',
+  'https://github.com/ThePrimeagen/vim-be-good',
 })
 
 vim.lsp.enable({ 'ts_ls', 'angularls', 'html', 'cssls', 'clangd' })
@@ -158,6 +161,18 @@ vim.api.nvim_create_autocmd('FileType', {
   end,
 })
 
+vim.cmd.packadd('nvim-ts-autotag')
+require('nvim-ts-autotag').setup({
+  ops = {
+    enable_close = true,
+    enable_rename = true,
+    enable_close_on_slash = true,
+  }
+})
+
+vim.cmd.packadd('which-key.nvim')
+require('which-key').setup({})
+
 require('fzf-lua').setup { fzf_colors = true }
 require('mini.completion').setup {}
 require('quicker').setup {}
@@ -169,6 +184,7 @@ require("nvim-autopairs").setup({
 require("gruvbox").setup({
   transparent_mode = true,
 })
+
 
 vim.lsp.config('bashls', {
   fileTypes = { "sh", "bash" },

@@ -1,0 +1,42 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+  "spacing": 6,
+  "reload_style_on_change": true,
+
+  "modules-left": [ "sway/workspaces" ],
+  "modules-center": [ "clock#time" ],
+  "modules-right": [ "disk", "cpu", "memory", "network", "clock#date", "battery"],
+
+  "battery": {
+    "states": { "warning": 30, "critical": 15 },
+    "format": "[ 󰁹{capacity}% ]"
+  },
+  "cpu": {
+    "format": "[   {load:>2}% ]"
+  },
+
+  "clock#time": {
+    "interval": 1,
+    "format": " [  {:%H:%M} ] "
+  },
+
+  "clock#date": {
+    "format": "[  {:%d/%m/%Y} ]"
+  },
+  "disk": {
+    "format": " [  {used}/{total} ] "
+  },
+  "memory": {
+    "format": "[ 󰍛 {used}/{total} ]"
+  },
+  "network": {
+    "format": "[   wifi: true ]",
+    "format-disconnected": "[   wifi: false ]",
+    "format-disabled": "[   wifi: false ]"
+  },
+  "sway/workspaces": {
+    
+  }
+}

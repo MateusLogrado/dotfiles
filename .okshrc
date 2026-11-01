@@ -1,0 +1,11 @@
+set t-o emacs
+
+HISTFILE="$HOME/.oksh_history"
+HISTSIZE=5000
+
+PS1='$(whoami)$ '
+
+alias ls='ls --color=auto'
+alias ll='ls -la'
+alias v='nvim'
+alias c='clear'

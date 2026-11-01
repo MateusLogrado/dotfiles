@@ -1,16 +1,20 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "type": "kitty",
-    "source": "/home/konata/.config/fastfetch/saberAlter.png",
-    "width": 25,
-    "height": 20
+    "type": "sixel",
+    "source": "/home/konata/.config/fastfetch/oda.png",
+    "width": 15,
+    "height": 10,
+    "padding": {
+	"top": 3,
+	"bottom": 5
+    }
   },
   "display": {
     "separator": " ❯ ",
     "color": {
-      "title": "red",
-      "keys": "red"
+      "title": "#85a7BA",
+      "keys": "#85a7BA"
     },
     "key": {
       "width": 14
