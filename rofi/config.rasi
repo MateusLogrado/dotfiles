@@ -1,7 +1,0 @@
-configuration {
-    modi: "drun";
-    show-icons: true;
-    font: "Terminus (TTF) 14";
-}
-
-@theme "~/.config/rofi/theme.rasi"
