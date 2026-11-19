@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+DOTFILES_DIR="$HOME/dotfiles"
+
+# Lista apenas diretórios de primeiro nível, ignorando ocultos (.*) e a pasta específica
+TEMAS=$(find "$DOTFILES_DIR" -mindepth 1 -maxdepth 1 -type d \
+    -not -name ".*" \
+    -not -name "nao-tema" \
+    -exec basename {} \; | sort)
+
+# Abre o Fuzzel no modo dmenu
+ESCOLHA=$(printf "%s\n" "$TEMAS" | fuzzel --dmenu --prompt="Tema: ")
+
+# Sai caso você aperte Esc ou não selecione nada
+[ -z "$ESCOLHA" ] && exit 0
+
+cd "$DOTFILES_DIR" || exit 1
+
+# Remove os symlinks de todos os temas listados (sem mexer na pasta ignorada)
+while IFS= read -r tema; do
+    stow -D "$tema" 2>/dev/null
+done <<< "$TEMAS"
+
+# Aplica o tema escolhido
+stow -t  "$HOME/.config" "$ESCOLHA"
+
+# Recarrega o Sway e atualiza a Waybar
+swaymsg reload
+killall -SIGUSR2 waybar 2>/dev/null || (killall waybar 2>/dev/null; waybar &)

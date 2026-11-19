@@ -29,7 +29,7 @@
     "format": " [  {used}/{total} ] "
   },
   "memory": {
-    "format": "[ 󰍛 {used}/{total} ]"
+    "format": "[ 󰍛 {used:0.1f}/{total:0.1f} ]"
   },
   "network": {
     "format": "[ WIFI: true ]",

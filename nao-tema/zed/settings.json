@@ -1,0 +1,54 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 500
+    }
+  },
+    "experimental.theme_overrides": {
+      "background.appearance": "blurred",
+      "background": "#28282899",
+      "editor.background": "#28282899",
+      "editor.gutter.background": "#28282800",
+      "editor.active_line.background": "#3c383666",
+      "surface.background": "#28282899",
+      "title_bar.background": "#28282899",
+      "title_bar.inactive_background": "#28282899",
+      "tab_bar.background": "#28282800",
+      "tab.active_background": "#3c383666",
+      "tab.inactive_background": "#28282800",
+      "toolbar.background": "#28282800",
+      "panel.background": "#28282899",
+      "status_bar.background": "#28282899",
+      "terminal.background": "#28282800",
+      "elevated_surface.background": "#282828ee"
+    },
+  "ui_font_family": "Terminus (TTF)",
+  "buffer_line_height": "comfortable",
+  "icon_theme": "Material Icon Theme",
+  "buffer_font_family": "Terminus (TTF)",
+  "ui_font_size": 16.0,
+  "buffer_font_size": 18.0,
+  "theme": "Gruvbox Dark",
+  "languages": {
+      "Angular": {
+        "tab_size": 2,
+        "formatter": "prettier"
+      },
+      "TypeScript": {
+        "tab_size": 2,
+        "formatter": "prettier"
+      },
+      "HTML": {
+        "tab_size": 2,
+        "formatter": "prettier"
+      }
+    }
+}
