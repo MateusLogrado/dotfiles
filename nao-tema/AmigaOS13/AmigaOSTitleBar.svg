@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1220 66"
+   xml:space="preserve"
+   sodipodi:docname="AmigaOSTitleBar.svg"
+   width="1220"
+   height="66"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs17">
+	
+
+		
+		
+		
+	</defs><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#505050"
+   bordercolor="#ffffff"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="16"
+   inkscape:cx="1197.9375"
+   inkscape:cy="37.625"
+   inkscape:window-width="1536"
+   inkscape:window-height="923"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#FEFEFE;}
+	.st1{fill:#0055A9;}
+</style>
+<path
+   class="st0"
+   d="m 2e-7,66 c 0,-22.0275 0,-43.9725 0,-66 C 406.7021,0 813.29793,0 1220,0 c 0,22.0275 0,43.9725 0,66 C 813.29793,66 406.7021,66 2e-7,66 Z M 397.56273,26.235 c 271.5244,0 542.62371,0 813.93557,0 0,-2.31 0,-4.455 0,-6.6825 0,-2.145 0.2125,-4.29 -0.1063,-6.27 -271.52438,0 -542.62369,0 -813.82927,0 0,4.3725 0,8.58 0,12.9525 z m 0,26.4 c 271.31185,0 542.51744,0 813.82927,0 0,-4.3725 0,-8.58 0,-12.9525 -271.31183,0 -542.51742,0 -813.82927,0 0,4.455 0,8.6625 0,12.9525 z"
+   id="path4"
+   style="stroke-width:0.936345" /><path
+   class="st1"
+   d="m 280,26.235 c 0,-4.3725 0,-8.58 0,-12.9525 310.51851,0 620.91534,0 931.7988,0 0.3651,1.98 0.1218,4.125 0.1218,6.27 0,2.145 0,4.3725 0,6.6825 -310.64023,0 -621.03706,0 -931.9206,0 z"
+   id="path6"
+   style="stroke-width:1.00192" /><path
+   class="st1"
+   d="m 280,52.635 c 0,-4.372669 0,-8.580331 0,-12.953 310.70722,0 621.29275,0 932,0 0,4.372669 0,8.580331 0,12.953 -310.70725,0 -621.29278,0 -932,0 z"
+   id="path8"
+   style="stroke-width:1.00204" />
+</svg>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 164 84"
+   xml:space="preserve"
+   sodipodi:docname="AmigaOSButtonUp.svg"
+   width="164"
+   height="84"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs17" /><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#505050"
+   bordercolor="#ffffff"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="2.4818678"
+   inkscape:cx="77.361091"
+   inkscape:cy="53.588672"
+   inkscape:window-width="1536"
+   inkscape:window-height="923"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#FE8700;}
+	.st1{fill:#0055A9;}
+	.st2{fill:#FEFEFE;}
+</style>
+<path
+   class="st0"
+   d="M 164,84 C 109.3569,84 54.643103,84 0,84 0,56.022047 0,27.977953 0,0 c 54.643103,0 109.3569,0 164,0 0,27.977953 0,56.022047 0,84 z M 5.6551724,73.417323 c 0,1.719685 0,3.43937 0,5.159055 C 19.368966,79.03937 155.8,78.840945 159.05172,78.377953 c 0,-1.653544 0,-3.307087 0,-4.96063 0,-21.165354 0,-42.330709 0,-63.4960632 0,-1.5212598 0,-3.0425196 0,-4.4976378 C 145.33793,4.9606299 8.9068966,5.1590551 5.6551724,5.6220472 c 0,1.4551182 0,2.8440945 0,4.2992126 0,21.1653542 0,42.3307092 0,63.4960632 z"
+   id="path4"
+   style="stroke-width:0.683779" />
+<path
+   class="st1"
+   d="m 159.05172,9.9212598 c 0,21.1653542 0,42.3307092 0,63.4960632 -51.10862,0 -102.287927,0 -153.3965476,0 0,-21.165354 0,-42.330709 0,-63.4960632 51.1086206,0 102.2879276,0 153.3965476,0 z m -5.72586,5.4236222 c -47.71552,0 -95.148274,0 -142.581032,0 -0.494828,10.31811 -0.282759,50.003149 0.212069,52.714961 47.432758,0 94.865513,0 142.368963,0 0,-17.659843 0,-35.12126 0,-52.714961 z"
+   id="path6"
+   style="stroke-width:0.683779" />
+<path
+   class="st2"
+   d="m 5.6551724,73.417323 c 51.1086206,0 102.2879276,0 153.3965476,0 0,1.653543 0,3.307086 0,4.96063 C 155.8,78.907087 19.368966,79.105512 5.6551724,78.576378 c 0,-1.719685 0,-3.43937 0,-5.159055 z"
+   id="path8"
+   style="stroke-width:0.683779" />
+<path
+   class="st2"
+   d="m 159.05172,9.9212598 c -51.10862,0 -102.287927,0 -153.3965476,0 0,-1.4551181 0,-2.8440944 0,-4.2992126 C 8.9068966,5.0929134 145.33793,4.8944882 159.05172,5.423622 c 0,1.4551182 0,2.976378 0,4.4976378 z"
+   id="path10"
+   style="stroke-width:0.683779" />
+<path
+   class="st2"
+   d="m 153.32586,15.344882 c 0,17.593701 0,35.12126 0,52.714961 -47.50345,0 -94.936205,0 -142.368963,0 C 10.462069,65.414173 10.25,25.662992 10.744828,15.344882 c 47.432758,0 94.865512,0 142.581032,0 z"
+   id="path12"
+   style="stroke-width:0.683779" />
+</svg>

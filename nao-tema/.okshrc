@@ -1,0 +1,18 @@
+# ~/.okshrc - carregado a cada shell interativo do oksh
+
+# Habilita navegacao no historico e cursor com as setas
+set -o emacs
+
+# Historico persistente
+export HISTFILE="$HOME/.oksh_history"
+export HISTSIZE=5000
+
+# Prompt dinamico (usuario@host:diretorio $ )
+_host="${HOSTNAME:-$(hostname -s)}"
+PS1='${USER}@${_host}:$(printf "%s" "$PWD" | sed "s|^$HOME|~|") $ '
+
+alias ls='ls --color=auto'
+alias ll='ls -la'
+alias la='ls -A'
+alias grep='grep --color=auto'
+alias sudo='doas'
