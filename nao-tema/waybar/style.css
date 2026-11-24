@@ -1,0 +1,20 @@
+* {
+  font-family: "Terminus (TTF)";
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+window#waybar {
+  color: white;
+}
+
+#workspaces button {
+  color: white;
+}
+
+#workspaces button.focused {
+  color: black;
+  background-color: white;
+}
